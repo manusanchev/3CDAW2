@@ -12,9 +12,9 @@
 // MYSQLI CONFIG
  define("CHARTPHP_DBTYPE","mysqli"); // or mysqli
  define("CHARTPHP_DBHOST","localhost");
- define("CHARTPHP_DBUSER","root");
- define("CHARTPHP_DBPASS","");
- define("CHARTPHP_DBNAME","prueba");
+ define("CHARTPHP_DBUSER","USER");
+ define("CHARTPHP_DBPASS","PASS");
+ define("CHARTPHP_DBNAME","DBNAME");
 
 // SQLITE CONFIG
 /*
