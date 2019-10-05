@@ -22,6 +22,6 @@ Verifique en el .bat si la direccion al ejecutable de su navegador esta disponib
 **Deberás modificar los archivos para garantizar la conexion con la base de datos.**
 
  - config.php
- - conexion.bd
+ - conexionbd.php
 
 Y por ultimo y no por ello menos importante para obtener el ping por defecto utilizo la DNS de google, si no obtiene el dato reviselo. :+1:
