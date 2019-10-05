@@ -15,6 +15,8 @@ Ejemplo:
 
 `schtasks /create /tn "cronJob" /tr C:\xampp\htdocs\carpeta\cronJob.bat /sc minute /mo 60 /st 20:57 /et 20:59 /k`
 
+Para mas informacion sobre el comando [schtasks](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/schtasks)
+
 Verifique en el .bat si la direccion al ejecutable de su navegador esta disponible y si la ruta al script es correcta
 
 **Deberás modificar los archivos para garantizar la conexion con la base de datos.**
