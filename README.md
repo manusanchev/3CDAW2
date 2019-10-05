@@ -9,7 +9,7 @@ El objetivo de este proyecto es proporcionar datos reales sobre la calidad de In
 ## ¿Qué debo saber antes de ejecutar el proyecto?
 **Para ejecutar el .bat que llama al script deberas crear una tarea mediante la linea de comandos.**
 
-`schtasks /create /tn "NOMBRE DE LA TAREA" /tr RUTA ABSOLUTA DEL .BAT /sc minute /mo MINUTOS /st HORA DE COMIENZO /et HORA DE FINALIZACION /k`
+`schtasks /create /tn "nombre tarea" /tr "ruta archivo .bat" /sc minute /mo "minutos" /st "hora de comienzo" /et "hora finalizacion" /k`
 
 Ejemplo:
 
