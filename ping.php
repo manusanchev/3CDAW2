@@ -6,10 +6,13 @@
     $output = $arr[sizeof($arr)-1]; 
 
     $ping = str_replace("ms","",$output);
-    $dia = date("Y-m-d");
+    if($ping != 0 ){
+        $dia = date("Y-m-d");
     
-    $sql = "INSERT INTO datos_ping(dia,ping) values('$dia','$ping')";
-    $conn->query($sql);
-    $conn->close();
-
+        $sql = "INSERT INTO datos_ping(dia,ping) values('$dia','$ping')";
+        $conn->query($sql);
+        $conn->close();
+    
+    }
+   
 ?>
